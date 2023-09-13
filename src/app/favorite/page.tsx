@@ -1,5 +1,4 @@
 import ImageGrid from "@/components/ImageGrid";
-import UploadButton from "../gallery/upload-button";
 import cloudinary from "cloudinary";
 
 export type SearchResult = {

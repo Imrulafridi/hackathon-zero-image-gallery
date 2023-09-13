@@ -15,8 +15,6 @@ const GalleryPage = async () => {
     .max_results(30)
     .execute()) as { resources: SearchResult[] };
 
-
-
   return (
     <>
       <div className="flex justify-between items-center pb-4">
